@@ -471,7 +471,9 @@ button:hover{
     margin-bottom: 2px;
     border-bottom: 2px solid black;
     outline: none;
-    color: lightgray;
+}
+#form > ::placeholder{
+    color: rgb(177, 175, 175);
 }
 #form > textarea{
     outline: none;
@@ -483,7 +485,6 @@ button:hover{
     font-size: 17px;
     margin-top: 12px;
     border-bottom: 2px solid black;
-    color: lightgray;
 }
 .submit{
     width: 77%;
