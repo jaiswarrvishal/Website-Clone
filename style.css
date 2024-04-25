@@ -10,6 +10,12 @@ body{
     height: 100%;
     /* display: flex; */
 }
+/* @media screen and (max-width: 550px) {
+    #fullpage{
+        width: 550px;
+        margin: auto;
+    }
+} */
 .firstNav{
     background-color: #F2F2F2;
 }
@@ -21,6 +27,14 @@ body{
     background-color: #F2F2F2;
     display: flex;
     justify-content: space-between;
+}
+@media screen and (max-width: 550px) {
+    #firstNavbar{
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+        background-color: red;
+    }
 }
 .leftFirstNavbar{
     /* border: 1px solid black; */
@@ -107,6 +121,19 @@ body{
     left: 798px;
     top: 160px;
 }
+@media screen and (max-width: 550px) {
+    .one{
+        width: 450px;
+        height: 500px;
+        overflow: hidden;
+        overflow: hidden;
+        position: relative;
+        left: 80px;
+        top: 100px;
+        /* background-color: blue; */
+        margin: auto;
+    }
+}
 .two{
     width: 610px;
     height: 350px;
@@ -125,6 +152,17 @@ body{
     padding: 40px;
     /* margin-top: 20px; */
     /* text-align: left; */
+}
+
+@media screen and (max-width: 550px) {
+    .two{
+        overflow: hidden;
+        position: absolute;
+        left: 20px;
+        top: 300px;
+        width: 400px;
+        height: 390px;
+    }
 }
 .text{
     margin-top: 40px;
@@ -454,6 +492,9 @@ button:hover{
     right: 450px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media screen and (max-width: 550) {
+    
 }
 .contactUs{
     text-align: center;
